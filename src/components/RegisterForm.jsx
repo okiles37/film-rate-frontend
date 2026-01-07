@@ -66,7 +66,7 @@ const RegisterForm = () => {
             placeholder="Admin olmak için girin"
             style={styles.input}
           />
-          <small style={styles.hint}>Admin anahtarı: FILMRATE2025</small>
+          <small style={styles.hint}>Admin anahtarı giriniz varsa</small>
         </div>
         {error && <p style={styles.error}>{error}</p>}
         <button 
